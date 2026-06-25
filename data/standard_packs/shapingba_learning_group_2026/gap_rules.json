@@ -1,0 +1,653 @@
+[
+  {
+    "id": "B1-photo-invalid",
+    "standard_id": "B1",
+    "gap_type": "evidence_gap",
+    "gap_description": "参会照片或传达记录不规范，可能缺少会议主题、会场场景、参会人员或当学期时效信息。",
+    "trigger_keywords": [
+      "照片",
+      "截图"
+    ],
+    "missing_evidence": [
+      "会议主题横幅",
+      "会场场景",
+      "参会人员",
+      "当学期",
+      "传达记录"
+    ],
+    "diagnostic_questions": [
+      "照片能否同时看出会议主题、场景和参会人员？",
+      "传达记录是否写明本组如何落实会议精神？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": [
+      "随意拍照"
+    ]
+  },
+  {
+    "id": "B1-spirit-not-translated",
+    "standard_id": "B1",
+    "gap_type": "behavior_gap",
+    "gap_description": "会议精神停留在传达层面，没有转化为本组本学期可执行的研修重点。",
+    "trigger_keywords": [
+      "传达会议精神",
+      "学习会议精神"
+    ],
+    "missing_evidence": [
+      "本组行动说明",
+      "研修重点",
+      "课堂",
+      "作业",
+      "评价"
+    ],
+    "diagnostic_questions": [
+      "会议精神中与本组最相关的关键词是什么？",
+      "本组决定从哪个具体问题切入？"
+    ],
+    "severity": "high",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B2-task-context-missing",
+    "standard_id": "B2",
+    "gap_type": "evidence_gap",
+    "gap_description": "有任务证明，但没有说明任务来源、承担内容和本组已有基础。",
+    "trigger_keywords": [
+      "任务",
+      "截图",
+      "证书"
+    ],
+    "missing_evidence": [
+      "任务来源",
+      "承担内容",
+      "已有基础"
+    ],
+    "diagnostic_questions": [
+      "这个任务来自哪里？",
+      "本组准备用什么已有基础完成任务？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B3-feedback-loop-missing",
+    "standard_id": "B3",
+    "gap_type": "structure_gap",
+    "gap_description": "视导反馈没有形成问题、原因、措施、证据、时限的循证改进闭环。",
+    "trigger_keywords": [
+      "视导",
+      "反馈"
+    ],
+    "missing_evidence": [
+      "问题描述",
+      "原因分析",
+      "改进措施",
+      "改进证据",
+      "完成时限"
+    ],
+    "diagnostic_questions": [
+      "视导发现的问题是什么？",
+      "下一次具体改哪一项，并用什么证据证明改了？"
+    ],
+    "severity": "high",
+    "avoid_phrases": [
+      "继续加强",
+      "进一步优化"
+    ]
+  },
+  {
+    "id": "B4-template-policy",
+    "standard_id": "B4",
+    "gap_type": "understanding_gap",
+    "gap_description": "制度文本模板化、AI感重或同质化，缺少校情、学科特点和本组常态流程。",
+    "trigger_keywords": [
+      "制度",
+      "细则",
+      "AI",
+      "模板"
+    ],
+    "missing_evidence": [
+      "校情",
+      "学科特点",
+      "常态教研",
+      "固定流程",
+      "共同约定"
+    ],
+    "diagnostic_questions": [
+      "本组每次常态教研固定会做哪些事？",
+      "哪些做法是成员已经认可并执行的？"
+    ],
+    "severity": "high",
+    "avoid_phrases": [
+      "加强教研文化建设"
+    ]
+  },
+  {
+    "id": "B4-operability-missing",
+    "standard_id": "B4",
+    "gap_type": "structure_gap",
+    "gap_description": "制度没有写清做什么、谁来做、怎么做、做到什么程度，操作性不足。",
+    "trigger_keywords": [
+      "制度",
+      "细则"
+    ],
+    "missing_evidence": [
+      "成员分工",
+      "流程",
+      "角色",
+      "时间",
+      "材料",
+      "证据",
+      "评价标准"
+    ],
+    "diagnostic_questions": [
+      "制度里是否能看出成员分工和流程？",
+      "是否配套了记录表或评价表？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B5-theme-alignment-missing",
+    "standard_id": "B5",
+    "gap_type": "structure_gap",
+    "gap_description": "计划没有紧扣区级或教共体研修主题，也没有形成适切的校本小切口。",
+    "trigger_keywords": [
+      "计划",
+      "安排"
+    ],
+    "missing_evidence": [
+      "区级研修主题",
+      "教共体研修主题",
+      "校本切口",
+      "本组问题"
+    ],
+    "diagnostic_questions": [
+      "区级或教共体主题中的关键词是什么？",
+      "本组本学期最需要解决的一个真实问题是什么？"
+    ],
+    "severity": "high",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B5-transactional-plan",
+    "standard_id": "B5",
+    "gap_type": "behavior_gap",
+    "gap_description": "计划偏事务性或常态教学管理，缺少专题研修活动设计。",
+    "trigger_keywords": [
+      "常规工作",
+      "教学管理",
+      "每周",
+      "每月",
+      "党员活动"
+    ],
+    "missing_evidence": [
+      "专题研修",
+      "主题",
+      "模块",
+      "研修活动"
+    ],
+    "diagnostic_questions": [
+      "哪些安排是真正的研修活动？",
+      "哪些内容只是常规事务，需要从计划中区分出来？"
+    ],
+    "severity": "high",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B5-progression-missing",
+    "standard_id": "B5",
+    "gap_type": "structure_gap",
+    "gap_description": "主题过多、活动次数不足或活动之间衔接弱，难以看出一学期的进阶关系。",
+    "trigger_keywords": [
+      "主题",
+      "次数",
+      "周次",
+      "周期"
+    ],
+    "missing_evidence": [
+      "模块",
+      "进阶",
+      "承接",
+      "不少于12次",
+      "负责人",
+      "形式"
+    ],
+    "diagnostic_questions": [
+      "一学期活动可以分成哪几个模块？",
+      "每个模块的产出如何进入下一个模块？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B6-plan-summary-disconnected",
+    "standard_id": "B6",
+    "gap_type": "structure_gap",
+    "gap_description": "总结没有对照学期计划逐项说明任务达成度和完成质量。",
+    "trigger_keywords": [
+      "总结",
+      "圆满完成",
+      "取得良好效果"
+    ],
+    "missing_evidence": [
+      "学期计划",
+      "完成度",
+      "已完成",
+      "部分完成",
+      "未完成"
+    ],
+    "diagnostic_questions": [
+      "总结目录是否来自学期计划？",
+      "每项任务的完成状态和质量如何？"
+    ],
+    "severity": "high",
+    "avoid_phrases": [
+      "圆满完成",
+      "取得良好效果"
+    ]
+  },
+  {
+    "id": "B6-reflection-vague",
+    "standard_id": "B6",
+    "gap_type": "evaluation_gap",
+    "gap_description": "总结语言假大空，只写成绩和活动数量，缺少真实偏差与下学期动作。",
+    "trigger_keywords": [
+      "开展了",
+      "组织了",
+      "成绩"
+    ],
+    "missing_evidence": [
+      "问题不足",
+      "偏差",
+      "原因",
+      "下学期规划",
+      "改进措施"
+    ],
+    "diagnostic_questions": [
+      "本学期至少哪一项任务没有达到预期？",
+      "下学期第一个月准备先改什么？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": [
+      "继续加强",
+      "持续优化",
+      "全面提升"
+    ]
+  },
+  {
+    "id": "B7-vague-goal",
+    "standard_id": "B7",
+    "gap_type": "understanding_gap",
+    "gap_description": "活动目标偏大偏虚，还没有写成可观察、可评价的研修目标。",
+    "trigger_keywords": [
+      "提高",
+      "加强",
+      "提升",
+      "优化"
+    ],
+    "missing_evidence": [],
+    "diagnostic_questions": [
+      "本次活动结束时，成员具体要形成什么成果？",
+      "用什么证据判断目标已经达成？"
+    ],
+    "severity": "high",
+    "avoid_phrases": [
+      "进一步加强",
+      "持续优化",
+      "全面提升"
+    ]
+  },
+  {
+    "id": "B7-evidence-chain-missing",
+    "standard_id": "B7",
+    "gap_type": "evidence_gap",
+    "gap_description": "方案没有清楚说明问题来源和证据链，循证研修过程不够明显。",
+    "trigger_keywords": [],
+    "missing_evidence": [
+      "问题提出",
+      "证据获取",
+      "证据分析",
+      "策略生成",
+      "课堂观察",
+      "作业分析",
+      "质量监测",
+      "访谈",
+      "前测",
+      "后测"
+    ],
+    "diagnostic_questions": [
+      "这个研修问题来自哪一种证据？",
+      "活动中准备让成员共同分析哪份证据材料？"
+    ],
+    "severity": "high",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B7-evaluation-tool-missing",
+    "standard_id": "B7",
+    "gap_type": "evaluation_gap",
+    "gap_description": "评价没有前置，缺少能判断目标是否达成的评价工具或达成标准。",
+    "trigger_keywords": [],
+    "missing_evidence": [
+      "评价表",
+      "量规",
+      "观察表",
+      "前后测",
+      "达成标准",
+      "评价工具"
+    ],
+    "diagnostic_questions": [
+      "活动结束后用什么工具判断目标是否达成？",
+      "评价标准能否在活动开始前就让成员知道？"
+    ],
+    "severity": "high",
+    "avoid_phrases": [
+      "效果良好"
+    ]
+  },
+  {
+    "id": "B7-continuity-missing",
+    "standard_id": "B7",
+    "gap_type": "structure_gap",
+    "gap_description": "方案没有说明连续3-5次活动之间的内在联系和进阶关系。",
+    "trigger_keywords": [],
+    "missing_evidence": [
+      "连续3-5次",
+      "第一次",
+      "第二次",
+      "第三次",
+      "前一次",
+      "后一次",
+      "进阶"
+    ],
+    "diagnostic_questions": [
+      "本次活动承接了前一次的什么产出？",
+      "本次活动会为下一次留下什么材料或问题？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B8-lecture-style",
+    "standard_id": "B8",
+    "gap_type": "behavior_gap",
+    "gap_description": "活动呈现为单向讲授或工作布置，成员研讨互动不足。",
+    "trigger_keywords": [
+      "主持人强调",
+      "主持人讲解",
+      "专家讲座",
+      "工作布置"
+    ],
+    "missing_evidence": [
+      "成员发言",
+      "分组讨论",
+      "追问",
+      "质疑",
+      "补充",
+      "辩论"
+    ],
+    "diagnostic_questions": [
+      "成员研讨互动时间是否足够？",
+      "哪些成员围绕同一证据进行了追问或补充？"
+    ],
+    "severity": "high",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B8-evidence-use-missing",
+    "standard_id": "B8",
+    "gap_type": "evidence_gap",
+    "gap_description": "成员发言凭经验，缺少课堂实录、观察数据、前后测、访谈或作业样本等证据支撑。",
+    "trigger_keywords": [],
+    "missing_evidence": [
+      "课堂实录",
+      "课堂观察数据",
+      "前后测",
+      "访谈数据",
+      "作业样本",
+      "基于证据发言"
+    ],
+    "diagnostic_questions": [
+      "现场共读或共析了哪一份证据？",
+      "结论和证据之间如何对应？"
+    ],
+    "severity": "high",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B8-evaluation-followup-missing",
+    "standard_id": "B8",
+    "gap_type": "evaluation_gap",
+    "gap_description": "活动结束缺少现场评价、测评结果或包含时间、内容、责任人的后续安排。",
+    "trigger_keywords": [
+      "效果良好"
+    ],
+    "missing_evidence": [
+      "评价工具",
+      "测评结果",
+      "后续安排",
+      "时间",
+      "内容",
+      "责任人"
+    ],
+    "diagnostic_questions": [
+      "现场如何使用评价工具检查目标达成？",
+      "下一步由谁在什么时候验证策略是否有效？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B9-newsletter-record",
+    "standard_id": "B9",
+    "gap_type": "structure_gap",
+    "gap_description": "活动记录像通讯稿，有照片和流程，但看不出证据、讨论观点、结论和评价实施。",
+    "trigger_keywords": [
+      "领导讲话",
+      "活动圆满",
+      "合影",
+      "简讯"
+    ],
+    "missing_evidence": [
+      "证据材料",
+      "讨论观点",
+      "研修结论",
+      "评价实施",
+      "评价结果"
+    ],
+    "diagnostic_questions": [
+      "记录中哪一段呈现了证据分析？",
+      "评价工具是否真实使用并记录结果？"
+    ],
+    "severity": "high",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B9-photo-evidence-weak",
+    "standard_id": "B9",
+    "gap_type": "evidence_gap",
+    "gap_description": "图片只展示合影或现场，缺少证据材料、工具使用和成果生成的照片。",
+    "trigger_keywords": [
+      "图片",
+      "照片"
+    ],
+    "missing_evidence": [
+      "证据材料",
+      "工具使用",
+      "成果生成",
+      "图片不少于3张"
+    ],
+    "diagnostic_questions": [
+      "图片能否证明过程和成果？",
+      "是否用黄色高亮评价实施部分？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B10-archive-only",
+    "standard_id": "B10",
+    "gap_type": "understanding_gap",
+    "gap_description": "知识管理停留在资料上传或归档，没有提炼成可复用工具、清单、模板或改进后的教学设计。",
+    "trigger_keywords": [
+      "上传资料",
+      "归档",
+      "整理资料"
+    ],
+    "missing_evidence": [
+      "检查清单",
+      "观察指标表",
+      "证据采集模板",
+      "优化前后教学设计",
+      "可复用"
+    ],
+    "diagnostic_questions": [
+      "这份材料以后能被谁在什么场景再次使用？",
+      "活动后沉淀成了哪一种工具或模板？"
+    ],
+    "severity": "high",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B10-preparation-missing",
+    "standard_id": "B10",
+    "gap_type": "structure_gap",
+    "gap_description": "活动前资源缺少问题说明、学习资源和教师预研任务，准备不够指向研修目标。",
+    "trigger_keywords": [],
+    "missing_evidence": [
+      "活动方案",
+      "学习资源",
+      "研修目标",
+      "理论学习",
+      "预研任务"
+    ],
+    "diagnostic_questions": [
+      "活动前教师需要读什么、看什么、带什么？",
+      "预研任务如何服务本次研修目标？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B11-impact-proof-only",
+    "standard_id": "B11",
+    "gap_type": "evidence_gap",
+    "gap_description": "只上传活动证明，没有提炼本组对外分享的经验点和影响证据。",
+    "trigger_keywords": [
+      "活动简讯",
+      "公众号截图",
+      "展示"
+    ],
+    "missing_evidence": [
+      "可推广经验",
+      "展示材料",
+      "影响",
+      "反馈"
+    ],
+    "diagnostic_questions": [
+      "本组对外展示的可借鉴做法是什么？",
+      "活动后留下了哪些影响证据？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B12-award-fragmented",
+    "standard_id": "B12",
+    "gap_type": "structure_gap",
+    "gap_description": "获奖材料散落在个人手里，没有形成成果台账，也没有回流到组内研修。",
+    "trigger_keywords": [
+      "获奖",
+      "证书"
+    ],
+    "missing_evidence": [
+      "成果台账",
+      "组内分享",
+      "资源库",
+      "反哺"
+    ],
+    "diagnostic_questions": [
+      "每个获奖成果的发证单位、级别、日期是否清楚？",
+      "获奖成果如何进入组内资源库？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B13-paper-proof-only",
+    "standard_id": "B13",
+    "gap_type": "evidence_gap",
+    "gap_description": "只上传论文证明，没有说明论文与本组教研实践的关系。",
+    "trigger_keywords": [
+      "论文",
+      "刊物"
+    ],
+    "missing_evidence": [
+      "实践观点",
+      "组内学习",
+      "教研实践",
+      "刊物封面",
+      "目录",
+      "正文首页"
+    ],
+    "diagnostic_questions": [
+      "论文中的哪一个观点能转化为组内做法？",
+      "证明材料是否包含封面、目录和正文首页？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B14-topic-disconnected",
+    "standard_id": "B14",
+    "gap_type": "structure_gap",
+    "gap_description": "课题与日常教研两张皮，研修活动中看不到课题问题、方法、工具或阶段成果。",
+    "trigger_keywords": [
+      "课题",
+      "立项",
+      "结题"
+    ],
+    "missing_evidence": [
+      "课题问题",
+      "阶段成果",
+      "研修活动",
+      "教学设计",
+      "观察表",
+      "评价工具"
+    ],
+    "diagnostic_questions": [
+      "课题问题可以拆成哪几次研修主题？",
+      "哪些课题工具能进入 B7-B10？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": []
+  },
+  {
+    "id": "B15-feature-vague",
+    "standard_id": "B15",
+    "gap_type": "understanding_gap",
+    "gap_description": "特色材料概念多、材料堆得多，但没有聚焦一个真实问题和可推广做法。",
+    "trigger_keywords": [
+      "特色",
+      "数字化",
+      "项目化",
+      "深度学习"
+    ],
+    "missing_evidence": [
+      "真实问题",
+      "稳定做法",
+      "效果证据",
+      "可推广",
+      "使用说明"
+    ],
+    "diagnostic_questions": [
+      "最能代表本组特色的一项是什么？",
+      "别人学习你们的第一步可以怎么做？"
+    ],
+    "severity": "medium",
+    "avoid_phrases": [
+      "取得良好效果"
+    ]
+  }
+]

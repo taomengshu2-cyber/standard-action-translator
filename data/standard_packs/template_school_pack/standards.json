@@ -1,0 +1,14 @@
+[
+  {
+    "id": "T1",
+    "title": "请替换为标准标题",
+    "category": "请替换为一级或二级指标",
+    "original_text": "请粘贴本校或本区标准原文。",
+    "plain_language_expectation": "请把标准翻译成组长能理解的要求。",
+    "key_requirements": ["请填写关键要求"],
+    "required_evidence": ["请填写可证明达标的材料"],
+    "related_document_types": ["请填写相关材料类型"],
+    "keywords": ["请填写关键词"],
+    "version": "0.1.0"
+  }
+]

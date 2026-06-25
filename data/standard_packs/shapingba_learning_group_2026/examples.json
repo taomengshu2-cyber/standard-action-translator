@@ -1,0 +1,22 @@
+[
+  {
+    "id": "example-b7-activity-plan",
+    "standard_id": "B7",
+    "input_file": "examples/b7_activity_plan_input.md",
+    "expected_gap_rule_ids": [
+      "B7-vague-goal",
+      "B7-evidence-chain-missing",
+      "B7-evaluation-tool-missing"
+    ]
+  },
+  {
+    "id": "source-word-standards",
+    "source": "2025—2026学年度中小幼学习型教研组（备课组）建设评估方案 2026.docx",
+    "usage": "B1-B15 标准原文、观察点、上传要求和主题研修活动评价标准"
+  },
+  {
+    "id": "source-feedback-xlsx",
+    "source": "学期初以此为准打分表汇总.xlsx",
+    "usage": "B1、B4、B5 学期初评价反馈中的常见薄弱点"
+  }
+]

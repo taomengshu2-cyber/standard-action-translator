@@ -1,0 +1,13 @@
+[
+  {
+    "id": "T1-action-template",
+    "standard_id": "T1",
+    "gap_rule_id": "T1-gap-template",
+    "action_type": "add_evidence",
+    "action_summary": "请填写组长下一步要做的具体动作。",
+    "action_steps": ["请填写步骤一", "请填写步骤二"],
+    "material_to_add": ["请填写需要补充的材料"],
+    "micro_example": "请填写不超过 150 字的局部示例。",
+    "output_constraints": ["不得代写完整材料", "不得评分排名"]
+  }
+]

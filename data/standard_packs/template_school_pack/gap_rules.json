@@ -1,0 +1,13 @@
+[
+  {
+    "id": "T1-gap-template",
+    "standard_id": "T1",
+    "gap_type": "evidence_gap",
+    "gap_description": "请描述该标准最常见的具体差距。",
+    "trigger_keywords": ["请填写可能触发该差距的词"],
+    "missing_evidence": ["请填写缺失时会触发该差距的证据词"],
+    "diagnostic_questions": ["请填写帮助组长自查的问题"],
+    "severity": "medium",
+    "avoid_phrases": ["进一步加强", "持续优化"]
+  }
+]

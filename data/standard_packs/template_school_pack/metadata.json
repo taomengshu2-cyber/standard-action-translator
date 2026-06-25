@@ -1,0 +1,11 @@
+{
+  "pack_id": "template_school_pack",
+  "name": "学校/区域标准包模板",
+  "version": "0.1.0",
+  "region_or_school": "请填写学校或区域名称",
+  "description": "复制本模板后，替换为本校或本区的评价标准、常见差距和行动模板。",
+  "created_at": "2026-06-25",
+  "updated_at": "2026-06-25",
+  "applicable_users": ["教研组长", "备课组长", "学科负责人", "教研员"],
+  "supported_document_types": ["学期研修计划", "活动方案", "活动记录", "研修总结"]
+}

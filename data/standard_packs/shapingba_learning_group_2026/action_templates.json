@@ -1,0 +1,655 @@
+[
+  {
+    "id": "B1-photo-invalid-action",
+    "standard_id": "B1",
+    "gap_rule_id": "B1-photo-invalid",
+    "action_type": "add_evidence",
+    "action_summary": "把参会照片和传达记录补成可核验材料。",
+    "action_steps": [
+      "筛选能同时呈现会议主题、会场场景和参会人员的照片。",
+      "在记录中写明会议时间、地点、参会人和传达对象。",
+      "删除往年旧图或无法判断主题的图片。"
+    ],
+    "material_to_add": [
+      "规范参会照片",
+      "会议传达记录",
+      "当学期时间信息"
+    ],
+    "micro_example": "照片说明可写：2026年春季区级学科教研工作会现场，含会议主题、会场和参会人员。",
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B1-spirit-not-translated-action",
+    "standard_id": "B1",
+    "gap_rule_id": "B1-spirit-not-translated",
+    "action_type": "align_plan",
+    "action_summary": "把会议精神转成本组本学期行动说明。",
+    "action_steps": [
+      "提炼区级或教共体会议中的3个关键词。",
+      "写出本组最相关的1个研修重点。",
+      "说明该重点与课堂、作业、单元设计或评价问题的关系。"
+    ],
+    "material_to_add": [
+      "本组行动说明",
+      "会议关键词",
+      "研修重点"
+    ],
+    "micro_example": "本组决定从“作业反馈证据使用”切入，围绕七年级单元作业讲评开展连续研修。",
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B2-task-context-missing-action",
+    "standard_id": "B2",
+    "gap_rule_id": "B2-task-context-missing",
+    "action_type": "add_evidence",
+    "action_summary": "在任务证明旁补充三句话说明。",
+    "action_steps": [
+      "写清任务来自区级、教共体还是学科研修员部署。",
+      "说明本组具体承担了什么。",
+      "说明准备用哪些已有基础完成任务。"
+    ],
+    "material_to_add": [
+      "任务来源说明",
+      "承担内容说明",
+      "已有基础说明"
+    ],
+    "micro_example": "本组承担教共体作业设计展示，基础是已形成两轮单元作业样本分析。",
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B3-feedback-loop-missing-action",
+    "standard_id": "B3",
+    "gap_rule_id": "B3-feedback-loop-missing",
+    "action_type": "redesign_process",
+    "action_summary": "把视导反馈整理成“一条问题一个闭环”。",
+    "action_steps": [
+      "逐条写出视导发现的问题。",
+      "补充课堂或教研中的具体表现和原因。",
+      "为每条问题写明改进动作、证据和完成时限。"
+    ],
+    "material_to_add": [
+      "视导循证改进记录",
+      "问题原因措施证据时限表"
+    ],
+    "micro_example": "问题：教学设计缺少学习证据采集；动作：下一次集备统一加入观察指标；证据：修订后教学设计。",
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B4-template-policy-action",
+    "standard_id": "B4",
+    "gap_rule_id": "B4-template-policy",
+    "action_type": "clarify_goal",
+    "action_summary": "先从常态教研流程中提炼制度，再改写成细则。",
+    "action_steps": [
+      "列出本组每次教研固定会做的事。",
+      "提炼成员已经认可的共同约定。",
+      "把约定改写为制度条款，并加入学科特点。"
+    ],
+    "material_to_add": [
+      "常态流程清单",
+      "共同约定清单",
+      "修订后制度"
+    ],
+    "micro_example": "每次研修前，主备人提交一个真实课堂问题和一份学生学习证据。",
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B4-operability-missing-action",
+    "standard_id": "B4",
+    "gap_rule_id": "B4-operability-missing",
+    "action_type": "redesign_process",
+    "action_summary": "把制度写到能执行、能检查。",
+    "action_steps": [
+      "为每个流程写明负责人或角色。",
+      "补充时间节点、提交材料和过程证据。",
+      "配套记录表或活动评价表。"
+    ],
+    "material_to_add": [
+      "成员分工表",
+      "流程表",
+      "活动评价表"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B5-theme-alignment-missing-action",
+    "standard_id": "B5",
+    "gap_rule_id": "B5-theme-alignment-missing",
+    "action_type": "align_plan",
+    "action_summary": "按“四层对齐”重写学期研修计划。",
+    "action_steps": [
+      "写出区级或教共体主题关键词。",
+      "写出本组真实问题。",
+      "把真实问题转成学期研修主题。",
+      "让每个模块对应一个关键词或问题。"
+    ],
+    "material_to_add": [
+      "主题关键词表",
+      "本组问题分析",
+      "学期研修主题",
+      "模块对应表"
+    ],
+    "micro_example": "区级关键词“循证研修”，本组切口“用作业证据改进讲评课”。",
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B5-transactional-plan-action",
+    "standard_id": "B5",
+    "gap_rule_id": "B5-transactional-plan",
+    "action_type": "redesign_process",
+    "action_summary": "把常规事务和专题研修活动分开。",
+    "action_steps": [
+      "删去或另列考勤、通知、常规检查等事务性工作。",
+      "保留真正围绕教学问题开展的研修活动。",
+      "为每次研修写清主题、问题、产出。"
+    ],
+    "material_to_add": [
+      "专题研修活动清单",
+      "事务性工作另表"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B5-progression-missing-action",
+    "standard_id": "B5",
+    "gap_rule_id": "B5-progression-missing",
+    "action_type": "redesign_process",
+    "action_summary": "把零散活动重组为有进阶关系的模块。",
+    "action_steps": [
+      "将12次左右活动分成2-4个模块。",
+      "为每个模块写清解决的问题和产出。",
+      "说明后一个模块如何使用前一个模块产出。",
+      "补齐时间、内容、负责人和形式。"
+    ],
+    "material_to_add": [
+      "模块化安排表",
+      "阶段产出清单",
+      "负责人和形式"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B6-plan-summary-disconnected-action",
+    "standard_id": "B6",
+    "gap_rule_id": "B6-plan-summary-disconnected",
+    "action_type": "summarize_reflection",
+    "action_summary": "把学期计划作为总结目录逐项复盘。",
+    "action_steps": [
+      "复制学期计划中的重点任务作为总结小标题。",
+      "逐项标注已完成、部分完成或未完成。",
+      "补充完成质量和对应证据。"
+    ],
+    "material_to_add": [
+      "任务达成表",
+      "成果证据",
+      "完成质量说明"
+    ],
+    "micro_example": "任务二：部分完成。已形成观察表，但只在两次活动中使用，应用范围不足。",
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B6-reflection-vague-action",
+    "standard_id": "B6",
+    "gap_rule_id": "B6-reflection-vague",
+    "action_type": "summarize_reflection",
+    "action_summary": "补写真实偏差，并转成下学期动作。",
+    "action_steps": [
+      "选择至少一个未达预期的任务。",
+      "说明偏差表现和可能原因。",
+      "把改进措施写成下学期第一月能启动的动作。"
+    ],
+    "material_to_add": [
+      "偏差分析",
+      "下学期首月行动清单"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B7-vague-goal-action",
+    "standard_id": "B7",
+    "gap_rule_id": "B7-vague-goal",
+    "action_type": "clarify_goal",
+    "action_summary": "把“大而虚”的活动目标改成可观察、可评价的研修目标。",
+    "action_steps": [
+      "先写清本次研修要解决的真实问题。",
+      "把目标改成活动结束时成员要形成的具体成果。",
+      "为目标配一个可检查的证据或工具。"
+    ],
+    "material_to_add": [
+      "问题陈述",
+      "成果样态说明",
+      "目标达成证据"
+    ],
+    "micro_example": "活动结束时，每位教师完成一份含观察指标的作业讲评改进清单。",
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B7-evidence-chain-missing-action",
+    "standard_id": "B7",
+    "gap_rule_id": "B7-evidence-chain-missing",
+    "action_type": "add_evidence",
+    "action_summary": "补上“问题提出—证据获取—证据分析—策略生成”的循证链条。",
+    "action_steps": [
+      "说明问题来源，如课堂观察、作业分析、质量监测或访谈。",
+      "在流程中加入共同阅读或分析证据的环节。",
+      "把策略生成写成基于证据得出的结论。"
+    ],
+    "material_to_add": [
+      "课堂观察记录",
+      "作业样本",
+      "质量监测数据",
+      "访谈摘录"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B7-evaluation-tool-missing-action",
+    "standard_id": "B7",
+    "gap_rule_id": "B7-evaluation-tool-missing",
+    "action_type": "add_evaluation_tool",
+    "action_summary": "把评价工具前置到活动方案中。",
+    "action_steps": [
+      "在活动准备部分列出评价表、观察表或达成标准。",
+      "让成员在活动开始前知道评价维度。",
+      "在结尾使用评价工具检查成果质量。"
+    ],
+    "material_to_add": [
+      "评价表",
+      "课堂观察表",
+      "成果达成标准"
+    ],
+    "micro_example": "评价维度可包括：问题是否明确、证据是否对应、策略是否可进入下一次课堂。",
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B7-continuity-missing-action",
+    "standard_id": "B7",
+    "gap_rule_id": "B7-continuity-missing",
+    "action_type": "redesign_process",
+    "action_summary": "补写连续3-5次活动之间的进阶关系。",
+    "action_steps": [
+      "说明本次活动承接前一次的哪项材料或问题。",
+      "写清本次活动将产出什么，供下一次使用。",
+      "把3-5次活动串成问题递进链。"
+    ],
+    "material_to_add": [
+      "连续活动关系图",
+      "前次产出",
+      "后续验证安排"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B8-lecture-style-action",
+    "standard_id": "B8",
+    "gap_rule_id": "B8-lecture-style",
+    "action_type": "redesign_process",
+    "action_summary": "把活动现场改成证据驱动的共研现场。",
+    "action_steps": [
+      "开场说明问题、证据、评价方式。",
+      "安排成员围绕同一份证据发言。",
+      "主持人用追问串联观点并提炼结论。"
+    ],
+    "material_to_add": [
+      "成员发言摘录",
+      "研讨时间安排",
+      "主持人追问记录"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B8-evidence-use-missing-action",
+    "standard_id": "B8",
+    "gap_rule_id": "B8-evidence-use-missing",
+    "action_type": "add_evidence",
+    "action_summary": "在活动中加入真实证据分析。",
+    "action_steps": [
+      "列出现场分析的课堂实录、观察数据、作业样本或前后测。",
+      "记录成员围绕证据发现的问题。",
+      "把现场结论对应到证据片段。"
+    ],
+    "material_to_add": [
+      "课堂实录",
+      "观察数据",
+      "作业样本",
+      "证据分析记录"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B8-evaluation-followup-missing-action",
+    "standard_id": "B8",
+    "gap_rule_id": "B8-evaluation-followup-missing",
+    "action_type": "add_evaluation_tool",
+    "action_summary": "补充现场评价和后续验证安排。",
+    "action_steps": [
+      "使用预设评价工具现场测评。",
+      "呈现测评结果。",
+      "写明后续跟进的时间、内容或责任人。"
+    ],
+    "material_to_add": [
+      "现场评价表",
+      "测评结果",
+      "后续验证安排"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B9-newsletter-record-action",
+    "standard_id": "B9",
+    "gap_rule_id": "B9-newsletter-record",
+    "action_type": "summarize_reflection",
+    "action_summary": "把记录从报道型改成证据型。",
+    "action_steps": [
+      "固定写清本次问题、使用证据、讨论观点、形成结论、评价结果和下一次调整。",
+      "减少领导讲话式描述。",
+      "把评价实施部分单独标出。"
+    ],
+    "material_to_add": [
+      "证据型活动记录",
+      "评价实施记录",
+      "研修结论"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B9-photo-evidence-weak-action",
+    "standard_id": "B9",
+    "gap_rule_id": "B9-photo-evidence-weak",
+    "action_type": "add_evidence",
+    "action_summary": "让图片证明过程和成果，而不只证明有人参加。",
+    "action_steps": [
+      "至少加入证据材料照片。",
+      "加入工具使用或讨论生成过程照片。",
+      "加入成果成型照片，并配简短说明。"
+    ],
+    "material_to_add": [
+      "证据材料照片",
+      "工具使用照片",
+      "成果照片"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B10-archive-only-action",
+    "standard_id": "B10",
+    "gap_rule_id": "B10-archive-only",
+    "action_type": "summarize_reflection",
+    "action_summary": "把归档资料提炼成后续能调用的工具、流程或模板。",
+    "action_steps": [
+      "从活动记录中提炼一个可复用结论。",
+      "把结论转成清单、评价表、流程图或模板。",
+      "在下一次活动方案中写明如何调用该成果。"
+    ],
+    "material_to_add": [
+      "流程图",
+      "评价表",
+      "问题清单",
+      "调用记录"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B10-preparation-missing-action",
+    "standard_id": "B10",
+    "gap_rule_id": "B10-preparation-missing",
+    "action_type": "add_evidence",
+    "action_summary": "补充教研前的准备任务。",
+    "action_steps": [
+      "写明本次教研准备解决的问题。",
+      "列出活动前已发布的学习资源。",
+      "给教师布置带着证据进入活动的预研任务。"
+    ],
+    "material_to_add": [
+      "问题说明",
+      "学习资源",
+      "预研任务单"
+    ],
+    "micro_example": "预研任务：带一份学生作业样本，标注最能反映学习困难的两处。",
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B11-impact-proof-only-action",
+    "standard_id": "B11",
+    "gap_rule_id": "B11-impact-proof-only",
+    "action_type": "summarize_reflection",
+    "action_summary": "在活动证明外补写可分享经验。",
+    "action_steps": [
+      "说明本组展示的不是一次流程，而是哪一个可借鉴做法。",
+      "整理展示材料和公众号截图。",
+      "补充一段本组可推广经验说明。"
+    ],
+    "material_to_add": [
+      "可推广经验说明",
+      "展示材料",
+      "活动截图"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B12-award-fragmented-action",
+    "standard_id": "B12",
+    "gap_rule_id": "B12-award-fragmented",
+    "action_type": "summarize_reflection",
+    "action_summary": "建立获奖成果台账并安排成果回流。",
+    "action_steps": [
+      "记录获奖人、项目名称、级别、发证单位和日期。",
+      "把获奖课例、设计、作业或工具放入组内资源库。",
+      "安排一次组内分享。"
+    ],
+    "material_to_add": [
+      "成果台账",
+      "证书照片",
+      "组内分享记录",
+      "资源库链接"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B13-paper-proof-only-action",
+    "standard_id": "B13",
+    "gap_rule_id": "B13-paper-proof-only",
+    "action_type": "add_evidence",
+    "action_summary": "把论文证明和教研实践连接起来。",
+    "action_steps": [
+      "补齐刊物封面、目录、正文首页和发表信息。",
+      "摘出论文中一个可转化为组内做法的观点。",
+      "把该观点安排为一次组内学习资源。"
+    ],
+    "material_to_add": [
+      "论文证明材料",
+      "实践观点摘录",
+      "组内学习记录"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B14-topic-disconnected-action",
+    "standard_id": "B14",
+    "gap_rule_id": "B14-topic-disconnected",
+    "action_type": "align_plan",
+    "action_summary": "把课题嵌入日常教研。",
+    "action_steps": [
+      "把课题研究问题拆成若干次研修主题。",
+      "把课题中的数据、课例或工具用于B7-B10。",
+      "说明阶段成果如何转化为教学设计、观察表或评价工具。"
+    ],
+    "material_to_add": [
+      "课题与研修对应表",
+      "阶段成果转化材料"
+    ],
+    "micro_example": null,
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  },
+  {
+    "id": "B15-feature-vague-action",
+    "standard_id": "B15",
+    "gap_rule_id": "B15-feature-vague",
+    "action_type": "clarify_goal",
+    "action_summary": "用“四问”重组特色材料。",
+    "action_steps": [
+      "只选一个最有代表性的特色。",
+      "写清解决的真实问题。",
+      "说明不同于常规的稳定做法。",
+      "补充有效证据和别人可学习的第一步。"
+    ],
+    "material_to_add": [
+      "特色问题说明",
+      "稳定做法",
+      "效果证据",
+      "迁移步骤"
+    ],
+    "micro_example": "四问：解决什么问题；用了什么做法；有什么证据；别人第一步怎么学。",
+    "output_constraints": [
+      "不评分",
+      "不排名",
+      "不代写完整材料",
+      "行动建议必须落到流程、证据、工具、材料、时间或责任人之一"
+    ]
+  }
+]
