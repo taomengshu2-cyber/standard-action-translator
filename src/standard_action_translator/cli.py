@@ -19,7 +19,13 @@ def main(argv: list[str] | None = None) -> int:
     try:
         if args.command == "diagnose":
             text = Path(args.input).read_text(encoding="utf-8")
-            result = diagnose(text=text, standard_id=args.standard, pack_path=args.pack)
+            result = diagnose(
+                text=text,
+                standard_id=args.standard,
+                pack_path=args.pack,
+                positive_mode=args.positive_mode,
+                positive_choices=args.positive_choices,
+            )
             output = format_result(result, args.format)
             if args.output:
                 Path(args.output).write_text(output, encoding="utf-8")
@@ -65,6 +71,16 @@ def build_parser() -> argparse.ArgumentParser:
     diagnose_parser.add_argument("--input", required=True, help="待诊断材料路径")
     diagnose_parser.add_argument("--format", choices=["markdown", "json"], default="markdown")
     diagnose_parser.add_argument("--output", help="输出文件路径")
+    diagnose_parser.add_argument(
+        "--positive-mode",
+        choices=["ask", "no", "yes"],
+        default="ask",
+        help="当材料较符合标准时，控制是否进入优势提炼流程",
+    )
+    diagnose_parser.add_argument(
+        "--positive-choices",
+        help="当 --positive-mode yes 时，传入组长选择，如 1A,2A,3B",
+    )
 
     explain_parser = subparsers.add_parser("explain", help="解释某条标准")
     explain_parser.add_argument("--pack", required=True, help="标准包目录")

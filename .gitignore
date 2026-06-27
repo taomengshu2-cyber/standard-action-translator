@@ -9,3 +9,5 @@ build/
 venv/
 .DS_Store
 *.log
+my_*_result.md
+test_outputs*/

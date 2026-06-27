@@ -126,3 +126,7 @@ class DiagnosisResult(StrictModel):
     next_actions: list[str]
     materials_to_add: list[str]
     guardrail_notes: list[str]
+    is_strong_match: bool = False
+    positive_mode: Literal["ask", "no", "yes"] = "ask"
+    positive_choices: str | None = None
+    reusable_practices: list[str] = []

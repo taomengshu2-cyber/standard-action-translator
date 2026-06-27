@@ -36,7 +36,7 @@ class Guardrails:
             notes.append(SCORING_NOTE)
         if any(keyword in text for keyword in GHOSTWRITING_RISK_KEYWORDS):
             notes.append(GHOSTWRITING_NOTE)
-        notes.append("本工具不直接评分，不替你生成完整材料。以上建议用于帮助你理解标准、发现差距并完成自主修改。")
+        notes.append("本工具不直接评分，不替你生成完整材料。以上建议用于帮助你理解标准、发现差距，真正的修改和落地仍需要组内教师一起努力。")
         return notes
 
     def remove_vague_phrases(self, items: list[str]) -> list[str]:

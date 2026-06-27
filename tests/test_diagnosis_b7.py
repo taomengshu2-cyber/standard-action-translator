@@ -25,6 +25,16 @@ def test_b7_markdown_output_has_fixed_sections():
 
     assert "# 标准行动转译结果：B7 活动方案" in markdown
     assert "## 4. 下一步具体改哪里" in markdown
+    assert "## 6. 继续修改前，可以先回答这几个问题" not in markdown
     assert "## 7. 边界提醒" in markdown
     assert "90分" not in markdown
     assert "排名第" not in markdown
+
+
+def test_b7_non_strong_output_uses_contextual_guidance():
+    result = diagnose(INPUT.read_text(encoding="utf-8"), "B7", PACK)
+    markdown = format_markdown(result)
+
+    assert "材料中的相关表述是" in markdown or "我在材料中暂未看到" in markdown
+    assert "针对材料中" in markdown
+    assert "优秀材料通常会" in markdown
